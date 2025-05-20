@@ -3,9 +3,13 @@ import { BrowserRouter as Router , Routes , Route } from 'react-router-dom';
 import Recpie from './components/Recipe';
 import Loading from './components/Loading';
 import Footer from './components/Footer';
+import './components/WarningHeader';
+import WarningHeader from './components/WarningHeader';
 function App() {
   
   return (
+    <div className="App">
+      <WarningHeader />
     <Router>
     <Routes>
       <Route path="/" element={<Home />} ></Route>
@@ -14,6 +18,7 @@ function App() {
     </Routes>
     <Footer />
     </Router>
+    </div>
   )
 }
 

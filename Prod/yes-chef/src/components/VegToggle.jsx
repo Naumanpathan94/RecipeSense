@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 const VegToggle = ({ initialState = false, onChange }) => {
   const [isVeg, setIsVeg] = useState(initialState);
