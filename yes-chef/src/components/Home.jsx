@@ -248,7 +248,7 @@ const Home = () => {
       <div className="home flex md:flex-row flex-col bg-white">
         <div className="search-menu w-full min-h-screen border-r-2 border-gray-600 shadow-xl shadow-gray-600 flex flex-col p-5 bg-white md:w-1/3 ">
 
-          <h2 className="text-3xl p-1 font-bold mb-3 text-gray-800" >What's for Dinner ?</h2>
+          <h2 className="text-3xl p-1 font-bold mb-3 text-gray-800" >RecipeSense</h2>
 
           <div className="flex flex-row justify-start p-3">
               <p className='text-base font-semibold mx-2 mb-2 px-3 py-1 rounded-full bg-green-300 text-green-700'>Veg Mode</p>
